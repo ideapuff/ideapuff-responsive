@@ -302,12 +302,15 @@ legend {
     font-size: 0.875em;  }
 select {
     width: 220px; }
-input[type="checkbox"] {
-    display: inline; }
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline;
+    margin-right: 5px;
+    margin-top: 5px; }
 label span,
 legend span {
     font-weight: normal;
-    font-size: 0.813em;
+    font-size: 0.875em;
     color: #444; }
 input[type="text"].fullWidth,
 input[type="password"].fullWidth,
